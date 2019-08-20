@@ -1,0 +1,80 @@
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark {
+  color: #fff;
+  background: linear-gradient(to bottom, #424b5e 0%, #252d3f 100%);
+}
+
+.light {
+  color: #000;
+  background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%)
+}
+
+.day-grid__container {
+  padding: 0 0 20px;
+}
+
+.day-grid {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.day-grid h2 {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.day-grid h3 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
+
+.day-grid__day-header {
+  text-transform: uppercase;
+  padding: 10px 0 5px;
+}
+
+.day-grid__day {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day-grid__times {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+      border-left: 1px solid #fff;
+}
+
+.day-grid__time {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #FFF;
+  border-left: 0;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.day-grid__time-display {
+  display: block;
+  font-weight: bold;
+}
+
+.day-grid__temp-display {
+  display: block;
+  font-size: 1.3em;
+}
