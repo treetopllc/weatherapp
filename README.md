@@ -1,8 +1,8 @@
 # Weather App
 
-After cloning this repo, be sure to `npm i` before running the project.
+After cloning the repo, be sure to `npm i` before running the project.
 
-(This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
+(This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). __You'll need to have Node 8.16.0 or Node 10.16.0 or later on your local development machine.__)
 
 ## Available Scripts
 
