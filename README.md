@@ -1,6 +1,8 @@
 # Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+After cloning this repo, be sure to `npm i` before running the project.
+
+(This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
 
 ## Available Scripts
 
