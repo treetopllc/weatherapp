@@ -3,4 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Weather from './Weather';
 
-ReactDOM.render(<Weather cityId="5746545" />, document.getElementById('container'))
+let search = window.location.search;
+let params = new URLSearchParams(search);
+let cityId = params.get('id');
+
+ReactDOM.render(<Weather cityId={cityId} />, document.getElementById('container'));
